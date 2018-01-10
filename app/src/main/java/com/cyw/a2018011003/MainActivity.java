@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle b=new Bundle();
         b.putString("data","Mydata");
         msg.setData(b);
+        //去catlog看訊息, 點button後會有log出現
         handler.sendMessageDelayed(msg,3000);
         //handler.sendMessage(msg);
     }
